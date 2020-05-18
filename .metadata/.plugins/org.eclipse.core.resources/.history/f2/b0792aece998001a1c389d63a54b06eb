@@ -1,0 +1,13 @@
+package homework;
+
+public class SMTest {
+	public static void main(String[] args) {
+		//创建学生管理类对象sm
+		StudentManager sm = new StudentManager();
+		//sm初始化
+		sm.init();
+		//调用学生管理类操作函数
+		sm.app();
+//		sm.insert();
+	}
+}
